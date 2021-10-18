@@ -3,7 +3,7 @@ on:
     paths:
     - '**.js'
 
-  jobs:
+jobs:
   print-username:
     runs-on: ubuntu-latest
 
