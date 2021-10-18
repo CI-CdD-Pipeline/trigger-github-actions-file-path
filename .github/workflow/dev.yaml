@@ -1,0 +1,12 @@
+on:
+  push:
+    paths:
+    - '**.js'
+
+  jobs:
+  print-username:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print the file info
+        run: cat .js
