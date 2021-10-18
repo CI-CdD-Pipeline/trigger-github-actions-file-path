@@ -6,7 +6,11 @@ on:
 jobs:
   print-username:
     runs-on: ubuntu-latest
+      
 
     steps:
+      - name: checkout
+        uses: actions/checkout@v2
+      
       - name: Print the file info
         run: cat K8s/prod/fileA
