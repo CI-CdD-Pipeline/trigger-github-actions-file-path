@@ -9,4 +9,4 @@ jobs:
 
     steps:
       - name: Print the file info
-        run: cat .js
+        run: cat K8s/prod/FileA
