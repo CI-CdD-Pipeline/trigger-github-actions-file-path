@@ -1,6 +1,7 @@
 on:
   push:
     paths:
+    - /K8s/prod/fileA
     - '**.js'
 
 jobs:
